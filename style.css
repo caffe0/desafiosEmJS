@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 51, 0);
+    text-align: center;
+}
+
+#menu h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+#menu-perfil {
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#menu-perfil a {
+    text-decoration: none;
+    color: black;
+}
+
+#carrinho-icon {
+    font-size: 40px;
+}
+
+#corpo {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+#corpo-itens {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#corpo-carrinho {
+    width: 20%;
+    right: 0;
+}
+
+#caixa-item {
+    min-width: 200px;
+    width: 15%;
+    height: 500px;
+    border: 5px solid rgb(185, 185, 185);
+    box-shadow: black 8px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 30px;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+    flex-flow: column;
+
+}
+
+#caixa-item img {
+    width: 80%;
+    max-height: 50%;
+
+}
+
+#caixa-item p {
+    overflow: hidden;
+}
+
+#nome-produto {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#preco-produto {
+    font-size: 30px;
+
+}
+
+#botao-Adicionar-Carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 13%;
+    width: 80%;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    transition: all .1s;
+    flex-wrap: nowrap;
+    box-shadow: grey 2px 5px 10px;
+}
+
+#botao-Adicionar-Carrinho:hover {
+    transition: all .1s;
+    width: 90%;
+    height: 15%;
+    font-size: 21px;
+    background-color: rgb(0, 153, 0);
+
+}
+
+#corpo-carrinho {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#caixa-itens-carrinho {
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#caixa-itens-carrinho img {
+    width: 20%;
+    margin: 10px;
+}
+
+.nome-dentro-carrinho {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#quantidade-preco {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco-dentro-carrinho{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: greenyellow;
+    height: auto;
+
+}
+
+
+.qntd-dentro{
+    font-weight: 400;
+    background-color: rgba(248, 248, 248, 0);
+
+}
